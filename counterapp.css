@@ -1,0 +1,63 @@
+body, html {
+    height: 100%;
+}
+
+*{
+    box-sizing: border-box; 
+}
+
+.backgrndImg {
+    background-image: url("images/station.jpg");
+
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*positioning text in the middle of the image/page*/
+
+.backgrndTxt {
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bolder;
+    border: 6px solid #bc2aff;
+    border-radius: 12px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+        
+}
+
+button {
+    color: rgb(220, 20, 120);
+    box-shadow: 0 16px 20px 0 rgba(0,0,0,0.28), 0 21px 54px 0 rgba(0,0,0,0.23);
+    font-size: larger;
+    font-weight: bolder;
+    font-style: oblique;
+    width: 200px;
+    transition-duration: 0.3s;
+}
+
+button:hover {
+    color: blue;
+}
+  
+.save {
+    color: rgb(163, 20, 220);
+    font-size: large;
+    font-weight: bolder;
+    font-style: italic;
+}    
+    
+
